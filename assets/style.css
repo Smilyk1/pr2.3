@@ -1,0 +1,92 @@
+html {
+    background-color: rgba(255, 255, 255, 0.2); 
+    background-image: url(pixel.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  table {
+    background-color: rgba(66, 66, 66, 0.316);
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 0.75rem;
+    border-bottom: 1px solid rgba(52, 52, 52, 0.689); 
+  }
+  
+  th {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.198); 
+  }
+  
+  html {
+    font-family: 'Arial', helvetica, arial, sans-serif;
+  }
+  
+  thead th, tfoot th {
+    font-family: 'Georgia', cursive;
+  }
+  
+  th {
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  
+  td {
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  thead, tfoot {
+    background: url(aaaa.png);
+    color: rgba(217, 217, 217, 0.7); 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  }
+  
+  thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    border: 2px solid rgba(146, 154, 155, 0.2); 
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.2); 
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  caption {
+    font-family: 'serif', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: rgba(102, 102, 102, 0.5); 
+    text-align: right;
+    letter-spacing: 1px;
+  }
